@@ -89,7 +89,7 @@ Then, you need to run the [preprocess_waymo.py](https://github.com/feng946gg/SAP
 cd datasets
 python preprocess_waymo.py
 ```
-finnally, prepare the paths as follows:
+Finnally, prepare the paths as follows:
 ```
 ./
 ├── 
