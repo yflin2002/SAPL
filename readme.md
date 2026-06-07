@@ -106,7 +106,7 @@ cd datasets
 python preprocess_waymo.py
 ```
 ## Source-models
-We use the same source model as [TTYD](https://github.com/valeoai/TTYD), which can be downloaded from the following link. Thank them for their excellent work!
+We use the same source model as [TTYD](https://github.com/valeoai/TTYD), which can be downloaded from the following link. 
 
 | Source datatset | Link                                                         |
 | --------------- | ------------------------------------------------------------ |
