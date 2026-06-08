@@ -68,15 +68,15 @@ To download PandaSet follow the instructions [here](https://www.kaggle.com/datas
 ├── ...
 └── data/pandaset/
       ├──001/
-          ├── lidar/
-          │    ├── 00.pkl
-          │    ├── 01.pkl
-          │    ├── ...
-          ├── annotations/
-          │    ├── semseg
-          │    │    ├── 00.pkl
-          │    │    ├── 01.pkl
-          │    │    ├── ...
+      │    ├── lidar/
+      │    │    ├── 00.pkl
+      │    │    ├── 01.pkl
+      │    │    ├── ...
+      │    ├── annotations/
+      │    │    ├── semseg
+      │    │    │    ├── 00.pkl
+      │    │    │    ├── 01.pkl
+      │    │    │    ├── ...
       ├──002/
       ├── ...
                 
@@ -96,29 +96,31 @@ Finnally, prepare the paths as follows:
 ├── ...
 └── data/waymo/
       └──training/
-          └──0/
-              └── lidar/
-                  └── frame_0_r1.npy
-                  └── frame_0_r2.npy
-                  └── ...
-              └── labels/
-                  └── frame_0_r1.npy
-                  └── frame_0_r2.npy
-                  └── ...
-              └── ...
-          └──...
+          │── 0/
+          │    │── lidar/
+          │    │    │── frame_0_r1.npy
+          │    │    │── frame_0_r2.npy
+          │    │    │── ...
+          │    │── labels/
+          │    │    │── frame_0_r1.npy
+          │    │    │── frame_0_r2.npy
+          │    │    │── ...
+          │    │── ...
+          │── 1/
+          │── ...
       └──validation/
-          └──0/
-              └── lidar/
-                  └── frame_0_r1.npy
-                  └── frame_0_r2.npy
-                  └── ...
-              └── labels/
-                  └── frame_0_r1.npy
-                  └── frame_0_r2.npy
-                  └── ...
-              └── ...
-          └──...
+          │── 0/
+          │    │── lidar/
+          │    │    │── frame_0_r1.npy
+          │    │    │── frame_0_r2.npy
+          │    │    │── ...
+          │    │── labels/
+          │    │    │── frame_0_r1.npy
+          │    │    │── frame_0_r2.npy
+          │    │    │── ...
+          │    │── ...
+          │── 1/
+          │── ...
 ```
 
 ## Source-models
