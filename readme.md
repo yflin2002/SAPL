@@ -96,15 +96,29 @@ Finnally, prepare the paths as follows:
 ├── ...
 └── data/waymo/
       └──training/
-          └── lidar/
-          └── lidar_segmentation/
-          └── lidar_calibration/
-          └── lidar_pose/
+          └──0/
+              └── lidar/
+                  └── frame_0_r1.npy
+                  └── frame_0_r2.npy
+                  └── ...
+              └── labels/
+                  └── frame_0_r1.npy
+                  └── frame_0_r2.npy
+                  └── ...
+              └── ...
+          └──...
       └──validation/
-          └── lidar/
-          └── lidar_segmentation/
-          └── lidar_calibration/
-          └── lidar_pose/
+          └──0/
+              └── lidar/
+                  └── frame_0_r1.npy
+                  └── frame_0_r2.npy
+                  └── ...
+              └── labels/
+                  └── frame_0_r1.npy
+                  └── frame_0_r2.npy
+                  └── ...
+              └── ...
+          └──...
 ```
 
 ## Source-models
